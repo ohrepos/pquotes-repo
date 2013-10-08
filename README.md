@@ -9,7 +9,7 @@
 ## Getting Start
 
 ``` clojure
-quote-builder-800.core=> (build "src/q-src.clj" "./quotes" "http://ohyecloudy.github.io/pquotes-repo/quotes/")
+quote-builder-800.core=> (build "src/q-src.clj" "./quotes" "http://ohyecloudy.github.io/pquotes-repo/quotes/" "@book_quote_bot")
 ```
 
 [quote builder 800](https://github.com/ohyecloudy/tbot-800)을 사용해서 빌드
