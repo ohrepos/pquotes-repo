@@ -6,7 +6,7 @@ before_install:
 - git config --global user.name "ohyecloudy"
 install:
 - git clone     https://ohyecloudy:$GH_TOKEN@github.com/ohrepos/pquotes-repo.git --branch=gh-pages pquotes
-- curl -O https://github.com/ohyecloudy/tbot-800/releases/download/v0.1.0/quote-builder-800-0.1.0-SNAPSHOT-standalone.jar
+- curl -O -L https://github.com/ohyecloudy/tbot-800/releases/download/v0.1.0/quote-builder-800-0.1.0-SNAPSHOT-standalone.jar
 script:
 - java -jar quote-builder-800-0.1.0-SNAPSHOT-standalone.jar -s pquotes/src/q-src.clj -o pquotes/quotes -b http://ohrepos.github.io/pquotes-repo/quotes/ -t @book_quote_bot
 after_success:
