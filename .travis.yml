@@ -1,0 +1,14 @@
+language: java
+jdk:
+- openjdk7
+before_install:
+- git config --global user.email "ohyecloudy@gmail.com"
+- git config --global user.name "ohyecloudy"
+install:
+- git clone     https://ohyecloudy:$GH_TOKEN@github.com/ohrepos/pquotes-repo.git --branch=gh-pages gh-pages
+script:
+- true
+env:
+  global:
+    secure: EUO3HUQRF1lT3nyWGsY6ddpmsHZCXifjM6ni7aommIC0+fFW+AGr1R/wC9DgWpJmQTyo+OesTl0H41BM/z3tgSCu9Ush3YUHR2TjrM4GCZCn3EPyk192OrprrxReRKkyOEGGPPQk86U9nxalvT6TLlpVXN/pmoihBzsvQfR/HYw=
+
