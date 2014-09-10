@@ -10,7 +10,13 @@ install:
 script:
 - java -jar quote-builder-800-0.1.0-SNAPSHOT-standalone.jar -s pquotes/src/q-src.clj -o pquotes/quotes -b http://ohrepos.github.io/pquotes-repo/quotes/ -t @book_quote_bot
 after_success:
-- true
+- cd pquotes
+- git remote rm origin
+- git remote add origin https://ohyecloudy:$GH_TOKEN@github.com/ohrepos/pquotes-repo.git
+- git add -f .
+- git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed to gh-pages"
+- git push -fq origin gh-pages
+
 env:
   global:
     secure: EUO3HUQRF1lT3nyWGsY6ddpmsHZCXifjM6ni7aommIC0+fFW+AGr1R/wC9DgWpJmQTyo+OesTl0H41BM/z3tgSCu9Ush3YUHR2TjrM4GCZCn3EPyk192OrprrxReRKkyOEGGPPQk86U9nxalvT6TLlpVXN/pmoihBzsvQfR/HYw=
