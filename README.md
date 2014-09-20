@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ohrepos/pquotes-repo.svg?branch=master)](https://travis-ci.org/ohrepos/pquotes-repo)
+
 # [pquotes-repo]
 
 프로그래밍 관련 인용구 저장소. 
