@@ -5,14 +5,14 @@ before_install:
 - git config --global user.email "ohyecloudy@gmail.com"
 - git config --global user.name "ohyecloudy"
 install:
-- git clone     https://ohyecloudy:$GH_TOKEN@github.com/ohrepos/pquotes-repo.git --branch=gh-pages result
+- git clone https://$GH_TOKEN@github.com/ohrepos/pquotes-repo.git --branch=gh-pages result
 - curl -O -L https://github.com/ohyecloudy/tbot-800/releases/download/v0.1.0/quote-builder-800-0.1.0-SNAPSHOT-standalone.jar
 script:
 - java -jar quote-builder-800-0.1.0-SNAPSHOT-standalone.jar -s ./src/q-src.clj -o ./result/quotes -b http://ohrepos.github.io/pquotes-repo/quotes/ -t @book_quote_bot
 after_success:
 - cd result
 - git remote rm origin
-- git remote add origin https://ohyecloudy:$GH_TOKEN@github.com/ohrepos/pquotes-repo.git
+- git remote add origin https://$GH_TOKEN@github.com/ohrepos/pquotes-repo.git
 - git add -f .
 - git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed to gh-pages"
 - git push -fq origin gh-pages
