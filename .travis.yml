@@ -10,7 +10,7 @@ install:
 - git clone https://github.com/ohyecloudy/tbot-quote-builder.git builder
 - cd builder;lein uberjar
 script:
-- java -jar ./builder/target/tbot-quote-builder-standalone.jar -s ./src/q-src.clj -o ./result/quotes -b http://ohrepos.github.io/pquotes-repo/quotes/ -t @book_quote_bot
+- cd ..;java -jar ./builder/target/tbot-quote-builder-standalone.jar -s ./src/q-src.clj -o ./result/quotes -b http://ohrepos.github.io/pquotes-repo/quotes/ -t @book_quote_bot
 after_success:
 - cd result
 - git remote rm origin
