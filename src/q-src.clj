@@ -26,6 +26,13 @@
            "If you can't measure it, you can't manage it. - Peter Druckeronce"
            "우리가 필요한 거의 모든 개념은 기본 속에서 찾을 수 있다. 라이브러리를 사용하는 방식으로는 정말로 실현 불가능할 경우에만 언어 확장 방식을 사용해야 한다. - Bjarne Stroustrup {C++ At Work: Rationales, Highlights, and a Farewell}"
            "중요한 작업은 반드시 눈에 띄어야 합니다. - Bjarne Stroustrup {C++ At Work: Rationales, Highlights, and a Farewell}"]}
+ {:source "대체 뭐가 문제야? (Are Your Lights On?)"
+  :quotes ["어떤 질문을 던져야 할까? '누가' 문제를 안고 있는가? 그것은 어떤 문제인가? 혹은, 이 시점에서 도대체 뭐가 '문제'란 말인가?"
+           "풋내기 문제 해결사들은 해결해야 할 문제를 정의하는 데 시간을 보내기보다는 대부분 성급하게 해결안을 찾아내는 데에 매달린다. [.] 저마다 원하는 해결안을 채택하기 위해 논쟁할 때에도 상대방의 고집스러움은 비난하면서 정작 편협한 관점을 비판하는 경우는 드물다."
+           "우리는 한쪽이 다른 쪽과 동일하게 아픔을 느끼기 시작하면, 결국 문제의 해결안을 찾게 된다는 것을 알고 있다. 미국 인디언들은 이런 문제 해결 기법을 '모카신 바꿔 신고 걷기'라고 이름 붙였다."
+           "문제란 바라는 것과 인식하는 것 간의 차이다."
+           "우리는 결코 문제들을 제거할 수 없다. 문제들, 해결안들 그리고 새로운 문제들이 끝없는 사슬을 구성한다. 우리가 바랄 수 있는 최고의 기대는 새로운 문제가 우리가 해결한 문제보다 덜 성가신 것이었으면 하는 것이다."
+           "많은 사람이 우리에게 '나의 가장 큰 문제는 내가 그렇게 뛰어난 문제 해결사가 아니라는 점입니다.'라고 말하곤 한다. 헛소리다. 우리가 그 문제가 무엇인지를 파악하는 것에 비하면, 문제를 해결하거나 해소하는 것은 오히려 사소한 일이다."]}
  {:source "Remote: Office Not Required"
   :quotes ["Remote work pulls back the curtain and exposes what was always the case, but not always appreciated or apparent: great remote workers are simply great workers."
            "Being a good writer is an essential part of being a good remote worker. When most arguments are settled over email or chat or discussion boards, you’d better show up equipped for the task."
