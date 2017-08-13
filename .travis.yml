@@ -6,20 +6,21 @@ before_install:
 - git config --global user.email "ohyecloudy@gmail.com"
 - git config --global user.name "ohyecloudy"
 install:
+- set -e
 - git clone https://$GH_TOKEN@github.com/ohrepos/pquotes-repo.git --branch=gh-pages result
 - git clone https://github.com/ohyecloudy/tbot-quote-builder.git builder
 - cd builder;lein uberjar
 script:
 - cd ..;java -jar ./builder/target/tbot-quote-builder-standalone.jar -s ./src/q-src.clj -o ./result/quotes -b http://ohrepos.github.io/pquotes-repo/quotes/ -t @book_quote_bot
 after_success:
+- set -e
 - cd result
 - git remote rm origin
 - git remote add origin https://$GH_TOKEN@github.com/ohrepos/pquotes-repo.git
 - git add -f .
 - git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed to gh-pages"
 - git push -fq origin gh-pages
-
 env:
   global:
-    secure: EUO3HUQRF1lT3nyWGsY6ddpmsHZCXifjM6ni7aommIC0+fFW+AGr1R/wC9DgWpJmQTyo+OesTl0H41BM/z3tgSCu9Ush3YUHR2TjrM4GCZCn3EPyk192OrprrxReRKkyOEGGPPQk86U9nxalvT6TLlpVXN/pmoihBzsvQfR/HYw=
-
+  - secure: EUO3HUQRF1lT3nyWGsY6ddpmsHZCXifjM6ni7aommIC0+fFW+AGr1R/wC9DgWpJmQTyo+OesTl0H41BM/z3tgSCu9Ush3YUHR2TjrM4GCZCn3EPyk192OrprrxReRKkyOEGGPPQk86U9nxalvT6TLlpVXN/pmoihBzsvQfR/HYw=
+  - secure: Wzd9f170TwNPH++yblwv12x/EU7Xy4vxoGObcTf0lqrEiLNvmqf/z9Lo+WdDcFsZPQln1EdwAHI5QMpr3hQnB3644aHYcOLJVMP39hrsbVdV4ZevcK3vWiOBaYaiRNaSDQ4KpuMy747nuNICOE2oaSgtCuLLowm6A79ybtVDqME=
