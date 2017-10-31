@@ -398,5 +398,13 @@
 "음표가 음악이 아니듯, 수학 기호도 그 자체는 수학이 아니다. {자연의 패턴}"
 "인간 정신과 문화는 이런 숱한 패턴들을 인식하고, 분류하고, 이용하는 정형화된 사고 체계를 발전시켜 왔다. 우리는 그것을 수학이라는 이름으로 부른다. {자연의 패턴}"
 "카오스는 임의적인 것이 아니다. '겉보기로는' 임의적인 움직임인 것 같지만 엄밀한 법칙에 의해 나타난 움직임이다. 카오스는 숨겨진 질서의 한 형태이다. {자연의 패턴}"
+"Programming should be about transforming data. {Programming Elixir 1.3}"
+"I don’t want to hide data. I want to transform it. {Programming Elixir 1.3}"
+"The benefit will become obvious as you write more code - functions written without explicit control ... http://ohrepos.github.io/pquotes-repo/quotes/1630fe191fa362066e67d505b5ff696a.html"
+"You use exceptions far less in Elixir than in other languages - the design philosophy is that errors... http://ohrepos.github.io/pquotes-repo/quotes/3a31396f9f587d569baddcb159f358de.html"
+"each process can contain its own state - in a way, processes in Elixir are like objects in an object... http://ohrepos.github.io/pquotes-repo/quotes/e7e2251d727f5cc1f9ac244984761d0d.html"
+"OTP stands for the Open Telecom Platform, but the full name is largely of historical interest and ev... http://ohrepos.github.io/pquotes-repo/quotes/1ab68a3f15c49947dae792ad05e42f01.html"
+"Erlang can actually run two versions of a module at the same time. Currently executing code will con... http://ohrepos.github.io/pquotes-repo/quotes/d8918977eb32d5816aa943b6fe6a3962.html"
+"However, type specifications are not currently in wide use in the Elixir world. Whether you use them... http://ohrepos.github.io/pquotes-repo/quotes/e45a13a0120b6c59aec80321119890d3.html"
 "문제는 당신이 무엇을 '보느냐(look)'가 아니라, 당신이 무엇을 '인식하느냐(see)'이다. {창조적으로 이미지를 보는 법}"
 ]
