@@ -26,6 +26,10 @@
            "If you can't measure it, you can't manage it. - Peter Druckeronce"
            "우리가 필요한 거의 모든 개념은 기본 속에서 찾을 수 있다. 라이브러리를 사용하는 방식으로는 정말로 실현 불가능할 경우에만 언어 확장 방식을 사용해야 한다. - Bjarne Stroustrup {C++ At Work: Rationales, Highlights, and a Farewell}"
            "중요한 작업은 반드시 눈에 띄어야 합니다. - Bjarne Stroustrup {C++ At Work: Rationales, Highlights, and a Farewell}"]}
+ {:source "The Little Elixir & OTP Guidebook"
+  :quotes ["If you've done any object-oriented programming, you'll find that processes resemble objects in many ways. You could even argue that this is a purer form of object-orientation."
+           "Destructuring allows you to bind a set of variables to a corresponding set of values anywhere that you can normally bind a value to a single variable. - Common Lisp: The Language"
+           "OTP is sometimes referred to as a framework, but that doesn't give it due credit. Instead, think of OTP as a complete development environment for concurrent programming."]}
  {:source "창의성을 지휘하라 (Creativity, Inc.)"
   :quotes ["픽사 사장으로서 내 목표는 언제나 픽사가 창업자들보다 오래 생존할 수 있게 픽사에 계속 생명력을 불어넣는 창의적 기업문화를 구축하는 것이었다."
            "존 래스터와 나는 어떤 직원이든 해결책이 생각나면 상사의 허락을 받을 필요 없이 이를 건의하고 문제 해결에 나서야 한다고 강조했다. 문제를 수정할 권한을 부여하지 않는다면 굳이 영리한 인재들을 채용할 의미가 있겠는가?"
