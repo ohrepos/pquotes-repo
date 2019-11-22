@@ -1,7 +1,7 @@
 language: clojure
-lein: lein2
+lein: lein
 jdk:
-- openjdk7
+- openjdk8
 before_install:
 - git config --global user.email "ohyecloudy@gmail.com"
 - git config --global user.name "ohyecloudy"
