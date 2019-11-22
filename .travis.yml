@@ -22,5 +22,4 @@ after_success:
 - git push -fq origin gh-pages
 env:
   global:
-  - secure: EUO3HUQRF1lT3nyWGsY6ddpmsHZCXifjM6ni7aommIC0+fFW+AGr1R/wC9DgWpJmQTyo+OesTl0H41BM/z3tgSCu9Ush3YUHR2TjrM4GCZCn3EPyk192OrprrxReRKkyOEGGPPQk86U9nxalvT6TLlpVXN/pmoihBzsvQfR/HYw=
-  - secure: Wzd9f170TwNPH++yblwv12x/EU7Xy4vxoGObcTf0lqrEiLNvmqf/z9Lo+WdDcFsZPQln1EdwAHI5QMpr3hQnB3644aHYcOLJVMP39hrsbVdV4ZevcK3vWiOBaYaiRNaSDQ4KpuMy747nuNICOE2oaSgtCuLLowm6A79ybtVDqME=
+  - secure: "Ews1m6r8WyOy0KVJr8j09WtDb1x+EBdfVKnAzSUwAeulGi/ddUsosuJjrZEg2iFq0NPYiL/emPc5fsY24If16utebrBgk0eu+cBaaMOll0XJ0g+P87xjeeDL7rLDwVB6lqLVauDvVLjO3s7qi1Zuhh9a9c2DJOqUnrBsyTSb+Ic="
