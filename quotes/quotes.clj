@@ -447,4 +447,7 @@
 "하지만 발명을 촉발하는 것은 데이터가 말해주지 않는 무엇이다. [.] 왜냐하면 그것은 아직 존재하지 않기 때문이다. 헨리 포드가 빅 데이터 알고리즘에게 고객들이 원하는 게 뭐냐고 ... http://ohrepos.github.io/pquotes-repo/quotes/54777798939f40062d1aae5fbb7014d1.html"
 "우리는 결코 완벽한 정보를 가질 수 없기에 우리가 내놓는 예측은 처음부터 잘못될 가능성을 내포한다. [.] 이것 때문에 빅 데이터가 내놓는 통찰이 무효가 되지는 않으며 그저 빅 데... http://ohrepos.github.io/pquotes-repo/quotes/1110a85e2814505c5cc8f7b235583fbc.html"
 "문제는 당신이 무엇을 '보느냐(look)'가 아니라, 당신이 무엇을 '인식하느냐(see)'이다. {창조적으로 이미지를 보는 법}"
+"José Valim, the creator of Elixir, chose to do something very different. He exposed the AST in a for... http://ohrepos.github.io/pquotes-repo/quotes/4bf9acf771c3a855701e4dee3ee7b02b.html"
+"Elixir has the concept of macro hygiene. Hygiene means that variables, imports, and aliases that you... http://ohrepos.github.io/pquotes-repo/quotes/7cc0bcea09cb843d760c92c0f4f72d33.html"
+"This also highlights an effective approach to macros, where the goal is to generate as little code a... http://ohrepos.github.io/pquotes-repo/quotes/55623b81666231e714fd402eece66378.html"
 ]
