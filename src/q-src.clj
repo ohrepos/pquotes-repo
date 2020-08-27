@@ -494,4 +494,8 @@
            "하지만 발명을 촉발하는 것은 데이터가 말해주지 않는 무엇이다. [.] 왜냐하면 그것은 아직 존재하지 않기 때문이다. 헨리 포드가 빅 데이터 알고리즘에게 고객들이 원하는 게 뭐냐고 물었다면 알고리즘은 '더 빠른 말'이라고 답했을 것이다."
            "우리는 결코 완벽한 정보를 가질 수 없기에 우리가 내놓는 예측은 처음부터 잘못될 가능성을 내포한다. [.] 이것 때문에 빅 데이터가 내놓는 통찰이 무효가 되지는 않으며 그저 빅 데이터의 제자리가 어디인지 알려주는 것뿐이다. [.] 그리고 이것은 우리가 빅 데이터라는 툴을 사용할 때 충분한 겸손과 충분한 인간성을 함께 발휘해야 한다는 뜻이기도 하다."]}
  {:source "창조적으로 이미지를 보는 법"
-  :quotes ["문제는 당신이 무엇을 '보느냐(look)'가 아니라, 당신이 무엇을 '인식하느냐(see)'이다."]}]
+  :quotes ["문제는 당신이 무엇을 '보느냐(look)'가 아니라, 당신이 무엇을 '인식하느냐(see)'이다."]}
+ {:source "Metaprogramming Elixir"
+  :quotes ["José Valim, the creator of Elixir, chose to do something very different. He exposed the AST in a form that can be represented by Elixir’s own data structures and gave us a natural syntax to interact with it. [.] Having the AST accessible by normal Elixir code lets you do very powerful things because you can operate at the level typically reserved only for compilers and language designers. [.] Macros are code that writes code. Their purpose in life is to interact with the AST using Elixir’s high-level syntax."
+           "Elixir has the concept of macro hygiene. Hygiene means that variables, imports, and aliases that you define in a macro do not leak into the caller’s own definitions."
+           "This also highlights an effective approach to macros, where the goal is to generate as little code as possible within the caller’s context. By proxying to an outside function, we keep the code generation as straightforward as possible."]}]
