@@ -1,4 +1,5 @@
 ["좋은 프로그래머란, 일방통행 도로에서도 양쪽을 모두 보고 건너는 사람이다. -더그 린더"
+"올바른 판단은 경험에서 나오고, 경험은 틀린 판단에서 나온다 (good judgment comes from experience, which comes from bad judgment) - 빌 걸리(Bill Gurley)"
 "Talk is cheap. Show me the code - Linus Torvalds"
 "To iterate is human, to recurse divine. (인간적인 반복, 성스러운 재귀) - L. 피터 도이치"
 "If content is king, then context is God - Gary Vaynerchuck"
