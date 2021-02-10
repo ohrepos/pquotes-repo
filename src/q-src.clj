@@ -1,4 +1,5 @@
-[{:quotes ["좋은 프로그래머란, 일방통행 도로에서도 양쪽을 모두 보고 건너는 사람이다. -더그 린더"
+[{:quotes [
+           "좋은 프로그래머란, 일방통행 도로에서도 양쪽을 모두 보고 건너는 사람이다. -더그 린더"
            "올바른 판단은 경험에서 나오고, 경험은 틀린 판단에서 나온다 (good judgment comes from experience, which comes from bad judgment) - 빌 걸리(Bill Gurley)"
            "Talk is cheap. Show me the code - Linus Torvalds"
            "To iterate is human, to recurse divine. (인간적인 반복, 성스러운 재귀) - L. 피터 도이치"
@@ -32,7 +33,10 @@
            "If you give someone Fortran, he has Fortran. If you give someone Lisp, he has any language he pleases. - GuySteele"
            "If you can't measure it, you can't manage it. - Peter Druckeronce"
            "우리가 필요한 거의 모든 개념은 기본 속에서 찾을 수 있다. 라이브러리를 사용하는 방식으로는 정말로 실현 불가능할 경우에만 언어 확장 방식을 사용해야 한다. - Bjarne Stroustrup {C++ At Work: Rationales, Highlights, and a Farewell}"
-           "중요한 작업은 반드시 눈에 띄어야 합니다. - Bjarne Stroustrup {C++ At Work: Rationales, Highlights, and a Farewell}"]}
+           "중요한 작업은 반드시 눈에 띄어야 합니다. - Bjarne Stroustrup {C++ At Work: Rationales, Highlights, and a Farewell}"
+           "인터넷에서 정답을 얻는 가장 좋은 방법은 질문하는 것이 아니라 오답을 게시하는 것입니다. - 워드 커닝햄(Ward Cunningham)"
+           ]
+  }
  {:source "The Little Elixir & OTP Guidebook"
   :quotes ["If you've done any object-oriented programming, you'll find that processes resemble objects in many ways. You could even argue that this is a purer form of object-orientation."
            "Destructuring allows you to bind a set of variables to a corresponding set of values anywhere that you can normally bind a value to a single variable. - Common Lisp: The Language"
