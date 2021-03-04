@@ -35,6 +35,7 @@
            "우리가 필요한 거의 모든 개념은 기본 속에서 찾을 수 있다. 라이브러리를 사용하는 방식으로는 정말로 실현 불가능할 경우에만 언어 확장 방식을 사용해야 한다. - Bjarne Stroustrup {C++ At Work: Rationales, Highlights, and a Farewell}"
            "중요한 작업은 반드시 눈에 띄어야 합니다. - Bjarne Stroustrup {C++ At Work: Rationales, Highlights, and a Farewell}"
            "인터넷에서 정답을 얻는 가장 좋은 방법은 질문하는 것이 아니라 오답을 게시하는 것입니다. - 워드 커닝햄(Ward Cunningham)"
+           "테스트는 실패로 이어지고, 실패는 이해로 이어진다. - 버트 루탄(Burt Rutan)"
            ]
   }
  {:source "The Little Elixir & OTP Guidebook"
