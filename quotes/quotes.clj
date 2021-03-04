@@ -34,6 +34,7 @@
 "우리가 필요한 거의 모든 개념은 기본 속에서 찾을 수 있다. 라이브러리를 사용하는 방식으로는 정말로 실현 불가능할 경우에만 언어 확장 방식을 사용해야 한다. - Bjarne Str... http://ohrepos.github.io/pquotes-repo/quotes/1a7baca0174056fcb23b540fac6ac53d.html"
 "중요한 작업은 반드시 눈에 띄어야 합니다. - Bjarne Stroustrup {C++ At Work: Rationales, Highlights, and a Farewell}"
 "인터넷에서 정답을 얻는 가장 좋은 방법은 질문하는 것이 아니라 오답을 게시하는 것입니다. - 워드 커닝햄(Ward Cunningham)"
+"테스트는 실패로 이어지고, 실패는 이해로 이어진다. - 버트 루탄(Burt Rutan)"
 "If you've done any object-oriented programming, you'll find that processes resemble objects in many ... http://ohrepos.github.io/pquotes-repo/quotes/7b685b85ba7f987b196452724ec58089.html"
 "Destructuring allows you to bind a set of variables to a corresponding set of values anywhere that y... http://ohrepos.github.io/pquotes-repo/quotes/053e41ecdafd04c1c91338f5707e8b26.html"
 "OTP is sometimes referred to as a framework, but that doesn't give it due credit. Instead, think of ... http://ohrepos.github.io/pquotes-repo/quotes/d2f65cae3d96b597332e1582be71ef4b.html"
