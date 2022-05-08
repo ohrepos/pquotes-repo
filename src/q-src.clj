@@ -504,4 +504,13 @@
  {:source "Metaprogramming Elixir"
   :quotes ["José Valim, the creator of Elixir, chose to do something very different. He exposed the AST in a form that can be represented by Elixir’s own data structures and gave us a natural syntax to interact with it. [.] Having the AST accessible by normal Elixir code lets you do very powerful things because you can operate at the level typically reserved only for compilers and language designers. [.] Macros are code that writes code. Their purpose in life is to interact with the AST using Elixir’s high-level syntax."
            "Elixir has the concept of macro hygiene. Hygiene means that variables, imports, and aliases that you define in a macro do not leak into the caller’s own definitions."
-           "This also highlights an effective approach to macros, where the goal is to generate as little code as possible within the caller’s context. By proxying to an outside function, we keep the code generation as straightforward as possible."]}]
+           "This also highlights an effective approach to macros, where the goal is to generate as little code as possible within the caller’s context. By proxying to an outside function, we keep the code generation as straightforward as possible."]}
+ {:source "Designing Elixir Systems with OTP(2019)"
+  :quotes [
+           "We believe good software design is about building layers, so perhaps the most important aspect of this book is helping good programmers understand where layers should go and how they work."
+           "We recommend the software layers: data structures, a functional core, tests, boundaries, lifecycle, and workers"
+           "If you want to write beautiful code, you need to design the right data structures that consider your primary access patterns. This rule of thumb is doubly true for functional languages because data structures are immutable."
+           "One of the key concepts in functional programming is the token. Think of a token as a piece representing a player on a board game. It moves and marks concepts. If you’re familiar with the Phoenix framework, the Plug.Conn is a token. An Ecto.Changeset or Query is also a token. Pipelines of functions transform these structures, tracking progress through a program."
+           ]
+  }
+ ]
