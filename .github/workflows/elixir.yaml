@@ -1,0 +1,75 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+name: Build quotes
+
+on:
+  push:
+    branches: [ "master" ]
+
+env:
+  USE_GLOBAL_ELIXIR: true
+  MIX_ENV: dev
+  ImageOS: ubuntu20
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+
+    name: build tbot-800.ex
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout tbot-800.ex
+      uses: actions/checkout@v3
+      with:
+        repository: ohyecloudy/tbot-800.ex
+        path: tbot_800
+
+    - name: Checkout ${{ github.repository }}
+      uses: actions/checkout@v3
+      with:
+        path: quotes
+
+    - name: Set up Elixir
+      uses: erlef/setup-beam@988e02bfe678367a02564f65ca2e37726dc0268f
+      with:
+        elixir-version: '1.14.1' # Define the elixir version [required]
+        otp-version: '25.1.2' # Define the OTP version [required]
+
+    - name: Restore dependencies cache
+      uses: actions/cache@v3
+      with:
+        path: tbot_800/deps
+        key: ${{ runner.os }}-mix-${{ hashFiles('**/mix.lock') }}
+        restore-keys: ${{ runner.os }}-mix-
+
+    - name: Build quotes
+      run: |
+        cd tbot_800
+        script/quote-build ${{ github.workspace }}/quotes/src/q-src.exs\
+          ohyecloudy\
+          http://ohrepos.github.io/pquotes-repo/quotes/\
+          ${{ github.workspace }}/tweet_items.exs\
+          ${{ github.workspace }}/quotes
+
+    - name: Checkout ${{ github.repository }} gh-pages branch
+      uses: actions/checkout@v3
+      with:
+        ref: gh-pages
+        path: output
+
+    - name: Commit results
+      run: |
+        mv ${{ github.workspace }}/quotes/*.* ${{ github.workspace }}/output/quotes
+        mv ${{ github.workspace }}/tweet_items.exs ${{ github.workspace }}/output/quotes/
+        cd ${{ github.workspace }}/output
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add .
+        git commit -m "Github actions build"
+        git push
