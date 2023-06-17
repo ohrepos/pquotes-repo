@@ -71,7 +71,7 @@ jobs:
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add .
-        if [ $(git diff --exit-code) -eq 0 ]; then
+        if [ "$(git diff --exit-code)" = "0" ]; then
           echo "nothing to commit"
           exit 0
         else
