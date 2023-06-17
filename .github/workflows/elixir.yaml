@@ -71,5 +71,10 @@ jobs:
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add .
-        git commit -m "Github actions build"
-        git push
+        if [ $(git diff --exit-code) -eq 0 ]; then
+          echo "nothing to commit"
+          exit 0
+        else
+          git commit -m "Github actions build"
+          git push
+        fi
