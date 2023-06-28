@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/ohrepos/pquotes-repo.svg?branch=master)](https://travis-ci.org/ohrepos/pquotes-repo)
-
-# [pquotes-repo]
+# pquotes-repo
 
 프로그래밍 관련 인용구 저장소. 
 
@@ -10,11 +8,7 @@
 
 ## Getting Start
 
-``` clojure
-quote-builder-800.core=> (build "src/q-src.clj" "./quotes" "http://ohrepos.github.io/pquotes-repo/quotes/" "@book_quote_bot")
-```
-
-[quote builder 800](https://github.com/ohyecloudy/tbot-800)을 사용해서 빌드
+[tbot-800.ex](https://github.com/ohyecloudy/tbot-800.ex)을 사용해서 빌드
 
 ## License
 
