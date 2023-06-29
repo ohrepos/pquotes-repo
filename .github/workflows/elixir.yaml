@@ -53,7 +53,8 @@ jobs:
         cd tbot_800
         script/quote-build ${{ github.workspace }}/quotes/src/q-src.exs\
           ohyecloudy\
-          http://ohrepos.github.io/pquotes-repo/quotes/\
+          https://ohrepos.github.io/pquotes-repo/quotes/\
+          G-EWWPQW864B\
           ${{ github.workspace }}/tweet_items.exs\
           ${{ github.workspace }}/quotes
 
