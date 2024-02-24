@@ -714,5 +714,21 @@
       "If you want to write beautiful code, you need to design the right data structures that consider your primary access patterns. This rule of thumb is doubly true for functional languages because data structures are immutable.",
       "One of the key concepts in functional programming is the token. Think of a token as a piece representing a player on a board game. It moves and marks concepts. If you’re familiar with the Phoenix framework, the Plug.Conn is a token. An Ecto.Changeset or Query is also a token. Pipelines of functions transform these structures, tracking progress through a program."
     ]
+  },
+  %{
+    origin: "단위 테스트 (블라디미르 코리코프, 2021)",
+    quotations: [
+      "커버리지 지표는 괜찮은 부정 지표이지만 좋지 않은 긍정 지표다.",
+      "테스트는 코드의 단위를 검증해서는 안 된다. 오히려 동작의 단위, 즉 문제 영역에 의미가 있는 것, 이상적으로는 비즈니스 담당자가 유용하다고 인식할 수 있는 것을 검증해야 한다. 동작 단위를 구현하는 데 클래스가 얼마나 필요한지는 상관없다. 단위는 여러 클래스에 걸쳐 있거나 한 클래스에만 있을 수 있고, 심지어 아주 작은 메서드가 될 수 있다.",
+      "테스트당 하나의 검증을 갖는 지침을 들어봤을 것이다. 이전 장에서 다뤘던 전제, 즉 가능한 한 가장 작은 코드를 목표로 하는 전제에 기반을 두고 있다. 이미 알고 있듯이 이 전제는 올바르지 않다. 단위 테스트의 단위는 동작의 단위이지 코드의 단위가 아니다. 단일 동작 단위는 여러 결과를 낼 수 있으며, 하나의 테스트로 그 모든 결과를 평가하는 것이 좋다.",
+      "프로그래밍을 하는 삶에 있어 불행한 사실은 코드가 자산이 아니라 책임이라는 점이다. 코드베이스가 커질수록 잠재적인 버그에 더 많이 노출된다. 그렇게 때문에 회귀에 대해 효과적인 보호를 개발하는 것이 중요하다. 이러한 보호가 없다면 프로젝트가 오랫동안 성장할 수 없으며 점점 더 많은 버그가 쌓일 것이다.",
+      "회귀 방지는 테스트 중에 실행되는 코드 양에 대한 함수다.",
+      "테스트에서 발생하는 거짓 양성(false positive)의 수는 테스트 구성 방식과 직접적인 관련이 있다. 테스트와 테스트 대상 시스템(SUT)의 구현 세부 사항이 많이 결합할수록 허위 정보가 더 많이 생긴다. 거짓 양성이 생길 가능성을 줄이는 방법은 해당 구현 세부 사항에서 테스트를 분리하는 것뿐이다.",
+      "완전히 통제권을 가진 프로세스 외부 의존성에 목(Mock)을 사용하면 깨지기 쉬운 테스트로 이어진다. 데이터베이스에서 테이블을 분할하거나 저장 프로시저에서 매개변수 타입을 변경할 때마다 테스트가 빨간색이 되는 것을 아무도 원하지 않는다. 데이터베이스와 애플리케이션은 하나의 시스템으로 취급해야 한다.",
+      "클래스 간의 통신을 검증하는 것은 두뇌의 뉴런이 서로 통과하는 신호를 측정해 사람의 행동을 유추하는 것과 유사하다. 이러한 세부 수준은 너무 세밀하다. 중요한 것은 클라이언트 목표로 거슬러 올라갈 수 있는 동작이다. 클라이언트는 도움을 청할 때 두뇌의 어떤 뉴런이 켜지는지 신경 쓰지 않는다. 클라이언트에게 중요한 것은 도움뿐이다.",
+      "목(Mock)을 사용할 때 항상 다음 지침을 따르자. 시스템 끝에서 비관리 의존성과의 상호 작용을 검증하라.",
+      "도메인 모델에 대한 테스트는 단위 테스트 범주에 속하며, 컨트롤러를 다루는 테스트는 통합 테스트다. 목(Mock)은 비관리 의존성에만 해당하며 컨트롤러만 이러한 의존성을 처리하는 코드이기 때문에 통합 테스트에서 컨트롤러를 테스트할 때만 목을 적용해야 한다.",
+      "코드가 더 중요해지거나 복잡해질수록 협력자(collaborator)는 더 적어야 한다."
+    ]
   }
 ]
