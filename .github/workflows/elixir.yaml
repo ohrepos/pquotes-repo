@@ -22,6 +22,12 @@ jobs:
 
     name: build tbot-800.ex
     runs-on: ubuntu-latest
+    strategy:
+      # Specify the OTP and Elixir versions to use when building
+      # and running the workflow steps.
+      matrix:
+        otp: ['25.3.2.7']       # Define the OTP version [required]
+        elixir: ['1.15.7']    # Define the elixir version [required]
 
     steps:
     - name: Checkout tbot-800.ex
@@ -35,11 +41,12 @@ jobs:
       with:
         path: quotes
 
+    # Step: Setup Elixir + Erlang image as the base.
     - name: Set up Elixir
-      uses: erlef/setup-beam@988e02bfe678367a02564f65ca2e37726dc0268f
+      uses: erlef/setup-beam@v1
       with:
-        elixir-version: '1.14.1' # Define the elixir version [required]
-        otp-version: '25.1.2' # Define the OTP version [required]
+        otp-version: ${{matrix.otp}}
+        elixir-version: ${{matrix.elixir}}
 
     - name: Restore dependencies cache
       uses: actions/cache@v3
