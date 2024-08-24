@@ -730,5 +730,18 @@
       "도메인 모델에 대한 테스트는 단위 테스트 범주에 속하며, 컨트롤러를 다루는 테스트는 통합 테스트다. 목(Mock)은 비관리 의존성에만 해당하며 컨트롤러만 이러한 의존성을 처리하는 코드이기 때문에 통합 테스트에서 컨트롤러를 테스트할 때만 목을 적용해야 한다.",
       "코드가 더 중요해지거나 복잡해질수록 협력자(collaborator)는 더 적어야 한다."
     ]
+  },
+  %{
+    origin: "Property-Based Testing with PropEr, Erlang, and Elixir (2019)",
+    quotations: [
+      "Property-based testing offers a lot of automation to keep the boring stuff away, but at the cost of a steeper learning curve and a lot of thinking to get it right, particularly when getting started.",
+      "Overall, you’ll see that property-based testing is not just using a bunch of tools to automate boring tasks, but a whole different way to approach testing, and to some extent, software design itself.",
+      "An example can be found in Thomas Arts’ slide set and presentation from the Erlang Factory 2016. In that talk, he mentioned using QuickCheck (the canonical property-based testing tool) to run tests on Project FIFO, an open source cloud project. With a mere 460 lines of property tests, they covered 60,000 lines of production code and uncovered twenty-five important bugs",
+      "property-based tests have nothing to do with listing examples by hand. Instead, you’ll want to write some kind of meta test: you find a rule that dictates the behavior that should always be the same no matter what sample input you give to your program and encode that into some executable code a property.",
+      "By listing many examples, we try to cover the full set of rules and edge cases that describe what the code should do. In property-based testing, we have to flip that around and come up with the rules first.",
+      "In fact, when we test with properties, the design and growth of tests requires an equal part of growth and design of the program itself. A common pattern when a property fails will be to figure out if it’s the system that is wrong or if it’s our idea of what it should do that needs to change. We’ll fix bugs, but we’ll also fix our understanding of the problem space. We’ll be surprised by how things we thought we knew are far more complex and tricky than we thought, and how often it happens.",
+      "Our tests are positive, happy-path tests, validating that everything is right and good things happen. Negative tests, by comparison, try to specifically exercise underspecified scenarios to find what happens in less happy paths.",
+      "Stateful property tests are particularly useful when 'what the code should do'? what the user perceives? is simple, but 'how the code does it'? how it is implemented? is complex."
+    ]
   }
 ]
