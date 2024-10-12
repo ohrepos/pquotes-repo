@@ -26,8 +26,8 @@ jobs:
       # Specify the OTP and Elixir versions to use when building
       # and running the workflow steps.
       matrix:
-        otp: ['25.3.2.7']       # Define the OTP version [required]
-        elixir: ['1.15.7']    # Define the elixir version [required]
+        otp: ['26.2.5.3']       # Define the OTP version [required]
+        elixir: ['1.16.3']    # Define the elixir version [required]
 
     steps:
     - name: Checkout tbot-800.ex
