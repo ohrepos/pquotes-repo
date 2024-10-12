@@ -743,5 +743,18 @@
       "Our tests are positive, happy-path tests, validating that everything is right and good things happen. Negative tests, by comparison, try to specifically exercise underspecified scenarios to find what happens in less happy paths.",
       "Stateful property tests are particularly useful when 'what the code should do'? what the user perceives? is simple, but 'how the code does it'? how it is implemented? is complex."
     ]
+  },
+  %{
+    origin: "Functional Web Development with Elixir, OTP, and Phoenix (2018)",
+    quotations: [
+      "We’re taking two radical steps with this approach, beginning an application without a framework, and choosing not to use a database for working state. We shouldn’t make those decisions lightly. There should be some tangible benefits in return. By beginning this way, we gain focus, clarity, and simplicity.",
+      "Our state machine will help us coordinate events and transitions as well. Most importantly, we’ll keep our code clean by separating state management from business logic.",
+      "Early client-server applications were stateful. Clients connected to the server and stayed connected while they passed messages back and forth. Think mainframe applications with dedicated terminals as clients. That worked well, but it meant that the number of possible clients was limited by system resources like memory, CPU, and the number of concurrent processes the system could support. The web gets around these limitations because of the nature of HTTP. When a client makes an HTTP request to a server, it must supply all the data the server will need to fulfill that request. Once the server sends its response, it forgets everything it just knew about both the request and the client.",
+      "We’re about to make a big leap. Up to this point, we’ve focused on modules, functions, and data. This is the synchronous side of Elixir, the world within a process where code executes sequentially. In this chapter, we’ll be moving into the asynchronous side, the world of processes and message passing that provides Elixir’s world-class concurrency and parallelism.",
+      "The team reasoned that it’s nearly impossible to predict all possible failures in advance, so they decided to focus on recovering from failure instead. They wanted to code for the happy path and have a separate mechanism get things back on track when the inevitable errors happen. The design they came up with is the supervisor Behaviour. It extracts error handling code from business logic into its own modules. Supervisor modules spawn supervisor processes that link to other processes and watch for failure, restarting those linked processes if they crash.",
+      "This is where we really fulfill the promise of fault tolerance. It’s one thing to restart a process if it crashes and then move on. It’s another thing entirely to restart it and restore the last known good state.",
+      "Phoenix Is Not Your Application",
+      "Channels scale incredibly well. In one test on a powerful machine, the Phoenix team was able to establish two million simultaneous channel connections. These weren’t just static connections. The team was able to broadcast messages to all two million clients within a few seconds."
+    ]
   }
 ]
