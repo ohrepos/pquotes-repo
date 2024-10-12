@@ -12,7 +12,6 @@ on:
 env:
   USE_GLOBAL_ELIXIR: true
   MIX_ENV: dev
-  ImageOS: ubuntu20
 
 permissions:
   contents: write
