@@ -34,7 +34,7 @@
   "If you can't measure it, you can't manage it. - Peter Druckeronce",
   "우리가 필요한 거의 모든 개념은 기본 속에서 찾을 수 있다. 라이브러리를 사용하는 방식으로는 정말로 실현 불가능할 경우에만 언어 확장 방식을 사용해야 한다. - Bjarne Stroustrup {C++ At Work: Rationales, Highlights, and a Farewell}",
   "중요한 작업은 반드시 눈에 띄어야 합니다. - Bjarne Stroustrup {C++ At Work: Rationales, Highlights, and a Farewell}",
-  "인터넷에서 정답을 얻는 가장 좋은 방법은 질문하는 것이 아니라 오답을 게시하는 것입니다. - 워드 커닝햄(Ward Cunningham)",
+  "인터넷에서 정답을 얻는 가장 좋은 방법은 질문하는 것이 아니라 오답을 게시하는 것입니다. - Anonymous",
   "테스트는 실패로 이어지고, 실패는 이해로 이어진다. - 버트 루탄(Burt Rutan)",
   "관리자란 개인적인 시간과 노력(또는 노동)을 직접 투입하기보다는 주로 자신들의 판단과 영향력을 통해 조직에 기여하는 사람들을 말한다. <몽키 비즈니스(2001)>",
   "원숭이는 두 당사자의 대화가 끝났을 때 실행에 옮겨질 다음 행동을 의미한다. 원숭이는 문제나 프로젝트, 프로그램 또는 기회 따위가 아니다. 원숭이는 문제를 해결하거나 프로그램 또는 프로젝트를 진척시키기 위해, 또는 기회를 추구하기 위해 다음번에 이루어져야 할 ... https://ohrepos.github.io/pquotes-repo/quotes/82448915efbebfaf1c921b239f86515cf88af632.html",
