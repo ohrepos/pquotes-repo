@@ -38,7 +38,8 @@
       "중요한 작업은 반드시 눈에 띄어야 합니다. - Bjarne Stroustrup {C++ At Work: Rationales, Highlights, and a Farewell}",
       "인터넷에서 정답을 얻는 가장 좋은 방법은 질문하는 것이 아니라 오답을 게시하는 것입니다. - Anonymous",
       "테스트는 실패로 이어지고, 실패는 이해로 이어진다. - 버트 루탄(Burt Rutan)",
-      "6주간의 구현은 2시간의 계획을 아낀다. - Anonymous"
+      "6주간의 구현은 2시간의 계획을 아낀다. - Anonymous",
+      "I’ve been reluctant to try ChatGPT. Today I got over that reluctance. Now I understand why I was reluctant. The value of 90% of my skills just dropped to $0. The leverage for the remaining 10% went up 1000x. I need to recalibrate. - x.com/KentBeck"
     ]
   },
   %{
@@ -756,8 +757,8 @@
       "This is where we really fulfill the promise of fault tolerance. It’s one thing to restart a process if it crashes and then move on. It’s another thing entirely to restart it and restore the last known good state.",
       "Phoenix Is Not Your Application",
       "Channels scale incredibly well. In one test on a powerful machine, the Phoenix team was able to establish two million simultaneous channel connections. These weren’t just static connections. The team was able to broadcast messages to all two million clients within a few seconds."
-      ]
-    },
+    ]
+  },
   %{
     origin: "소프트웨어 아키텍처 101 (마크 리처즈, 닐 포드, 2021)",
     quotations: [
